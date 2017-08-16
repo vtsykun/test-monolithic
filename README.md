@@ -1,1 +1,6 @@
 WIP
+
+```
+[commit]
+        gpgsign = false
+```

@@ -1,5 +1,5 @@
 AkumaDistributionBundle
-=====================
+========================
 
 Implements additional way to load bundles without any updates of application files.
 
