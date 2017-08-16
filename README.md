@@ -1,2 +1,1 @@
-# test-monolithic
-example monolithic repositories
+WIP
