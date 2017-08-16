@@ -1,0 +1,7 @@
+subtree-push:
+    packages/php-rdk: [git@github.com:vtsykun/test-phprdk.git]
+    packages/distribution-bundle: [git@github.com:vtsykun/test-distribution-bundle.git]
+    applications/symfony-ee: [git@github.com:vtsykun/test-symfony-ee-aplicatiion.git]
+    applications/symfony-se: [git@github.com:vtsykun/test-symfony-se-aplicatiion.git]
+
+subtree-pull: ~
