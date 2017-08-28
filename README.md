@@ -1,6 +1,6 @@
-## workflow for Monolithic repository
+## Workflow for Monolithic repository
 
-![Img](.docs/monolithic.png)
+![Img](docs/monolithic.png)
 
 What is Monolithic?
 -----------------
@@ -11,7 +11,8 @@ for all development activities, contains the source code of all repositories nes
 Create monolithic from existing repos
 ------------------------------------
 
-Git subtree add allow include into monolithic repo by importing its content from the given remote repo keeping git history
+Git subtree add allow include into monolithic repo by importing its content from the given remote repo keeping git history.
+See for more information https://github.com/git/git/blob/master/contrib/subtree/git-subtree.txt
 
 Example:
 ```
