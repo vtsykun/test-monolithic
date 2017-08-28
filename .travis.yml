@@ -1,0 +1,13 @@
+sudo: false
+
+branches:
+  only:
+    - master
+    - /^maintenance\/.*$/
+
+before_install:
+    - openssl aes-256-cbc -K $encrypted_b230af36b11e_key -iv $encrypted_b230af36b11e_iv -in .builds/travis.key.enc -out .builds/travis.key -d
+    - chmod 400 .builds/travis.key
+
+script:
+    - if [ "$TRAVIS_EVENT_TYPE" = 'push' ]; then ./.builds/sync.sh $TRAVIS_BRANCH; fi
